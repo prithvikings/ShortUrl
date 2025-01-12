@@ -4,3 +4,4 @@ const {handleGenerateShortUrl}=require('../controller/urlController')
 router.post('/', handleGenerateShortUrl);
 module.exports=router;
 
+
