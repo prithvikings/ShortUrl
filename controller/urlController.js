@@ -10,6 +10,7 @@ async function handleGenerateShortUrl(req, res) {
             message: 'redirectUrl is required'
         });
     }
+    
     await Url.create({
         shortId,
         redirectUrl: body.url,
